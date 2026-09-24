@@ -18,24 +18,32 @@ public class Ejercicio2 {
             String b,r;
 
 
-            b=console.readline("Ingrese su año de nacimiento: ");
+            b=console.readLine("Ingrese su año de nacimiento: ");
 
-            byear=Integer.parseint(b);
+            byear=Integer.parseInt(b);
 
-            r=console.readline("Ingrese el año actual: ");
+            r=console.readLine("Ingrese el año actual: ");
 
-            ryear=Integer.parseint(r);
+            ayear=Integer.parseInt(r);
 
             
-            if(byear>ryear){
+            if(byear>ayear){
 
                 System.out.println("El año de nacimiento no puede ser mayor al año actual");
             }
 
-            if(byear <0 || ryear<o){
+            if(byear <0 || ayear<0){
 
-                System.out
+                System.out.println("El año de nacimiento y el año actual no pueden ser negativos");
             }
+
+  
+
+            age=byear-ayear;
+
+
+            System.out.printf("Su edad es: %d", age);
+
     }
 
 
