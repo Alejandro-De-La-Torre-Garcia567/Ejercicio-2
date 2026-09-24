@@ -39,7 +39,7 @@ public class Ejercicio2 {
 
   
 
-            age=byear-ayear;
+            age=ayear-byear;
 
 
             System.out.printf("Su edad es: %d", age);
