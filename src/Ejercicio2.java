@@ -10,7 +10,7 @@ public class Ejercicio2 {
             if(console==null){
 
                 System.out.printf("No hay una consola disponible\n");
-
+                return;
             }  
             
             
