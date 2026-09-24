@@ -30,11 +30,13 @@ public class Ejercicio2 {
             if(byear>ayear){
 
                 System.out.println("El año de nacimiento no puede ser mayor al año actual");
+                return;
             }
 
             if(byear <0 || ayear<0){
 
                 System.out.println("El año de nacimiento y el año actual no pueden ser negativos");
+                return;
             }
 
   
