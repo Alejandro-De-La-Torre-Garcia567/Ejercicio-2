@@ -46,7 +46,6 @@ public class Ejercicio2 {
 
             System.out.printf("Su edad es: %d", age);
 
-    }
-
+        }
 
 }
