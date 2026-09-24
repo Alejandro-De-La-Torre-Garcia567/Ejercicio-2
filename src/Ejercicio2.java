@@ -9,7 +9,7 @@ public class Ejercicio2 {
 
             if(console==null){
 
-                System.out.println("No hay una consola dispnible");
+                System.out.printf("No hay una consola disponible\n");
 
             }  
             
@@ -27,15 +27,16 @@ public class Ejercicio2 {
             ayear=Integer.parseInt(r);
 
             
+            
             if(byear>ayear){
 
-                System.out.println("El año de nacimiento no puede ser mayor al año actual");
+                System.out.printf("El año de nacimiento no puede ser mayor al año actual\n");
                 return;
             }
 
             if(byear <0 || ayear<0){
 
-                System.out.println("El año de nacimiento y el año actual no pueden ser negativos");
+                System.out.printf("El año de nacimiento y el año actual no pueden ser negativos\n");
                 return;
             }
 
